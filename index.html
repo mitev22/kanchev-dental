@@ -170,6 +170,8 @@
     section{padding:60px 0}
     .topbar .right a span{display:none}
   }
+  .heroimg img,.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+  .photo{position:relative}
 </style>
 </head>
 <body>
@@ -212,7 +214,7 @@
       </div>
     </div>
     <div class="heroimg">
-      <!-- Заменете блока .ph с: <img src="../_assets/kanchev-1.jpg" alt="Дентална практика д-р Кънчев"> -->
+      <img src="img/hero.jpg" alt="Дентална практика д-р Иван Кънчев" onerror="this.remove()">
       <div class="ph"><i class="ti ti-dental"></i><div>Място за снимка<br>на практиката</div></div>
     </div>
   </div>
@@ -242,7 +244,7 @@
       </ul>
     </div>
     <div class="photo">
-      <!-- Заменете с: <img src="../_assets/kanchev-2.jpg" alt="Д-р Иван Кънчев"> -->
+      <img src="img/about.jpg" alt="Чакалня — кабинет на д-р Кънчев" onerror="this.remove()">
       <div><i class="ti ti-photo"></i>Снимка на д-р Кънчев / кабинета</div>
     </div>
   </div>
@@ -287,7 +289,7 @@
       <div class="review"><span class="stars"><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i></span><p>„Много стоматолози в Пловдив, малко като д-р Кънчев. Отношение, професионализъм без забележка!"</p><div class="who">Кристиан Д.</div><div class="when">5 май 2025</div></div>
       <div class="review"><span class="stars"><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i><i class="ti ti-star-filled"></i></span><p>„Усмихнат, лъчезарен и приветлив човек, който много добре знае какво прави. Нямах усещане, че съм на зъболекар."</p><div class="who">Стефка Р.</div><div class="when">1 септември 2025</div></div>
     </div>
-    <div class="src"><i class="ti ti-brand-google"></i> Отзивите са реални, събрани от профила на д-р Кънчев в SuperDoc.</div>
+    <div class="src"><i class="ti ti-star-filled"></i> Отзивите са реални, събрани от профила на д-р Кънчев в SuperDoc.</div>
   </div>
 </section>
 
